@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  font-family: "Arial", sans-serif;
+  color: white;
+  height: 90vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#timer {
+  font-size: 48px;
+  margin: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: rgb(138, 117, 91);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+button:active {
+  background: greenyellow;
+}
+
+button:disabled {
+  background: #ccc;
+}
