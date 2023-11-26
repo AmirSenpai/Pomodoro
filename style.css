@@ -1,37 +1,40 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #121212;
-  font-family: "Arial", sans-serif;
+  font-family: "vazir";
   color: white;
   height: 90vh;
 }
-
-.container {
-  text-align: center;
+.btns {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
-
 #timer {
   font-size: 48px;
   margin: 20px;
 }
-
 button {
   margin: 10px;
   padding: 10px 20px;
-  font-size: 16px;
-  background: rgb(138, 117, 91);
+  font-size: 17px;
+  background: rgb(30, 77, 69);
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 button:active {
-  background: greenyellow;
+  background: rgb(153, 255, 0);
 }
-
-button:disabled {
-  background: #ccc;
+h1 {
+  font-weight: 100;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
