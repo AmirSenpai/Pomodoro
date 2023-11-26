@@ -38,3 +38,21 @@ a {
   text-decoration: none;
   color: white;
 }
+@media only screen and (max-width: 592px) {
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 14px;
+  }
+  button{
+    width: 100px;
+    height: 45px;
+    font-size: 15px;
+    padding: 0;
+    margin: 10px;
+  }
+  .github{
+    width: 180px;
+  }
+}
